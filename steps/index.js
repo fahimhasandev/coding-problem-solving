@@ -17,6 +17,8 @@
 //       '### '
 //       '####'
 
+//How to add space
+
 function steps(n) {}
 
 module.exports = steps;

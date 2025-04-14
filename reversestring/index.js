@@ -7,11 +7,8 @@
 //   reverse('Greetings!') === '!sgniteerG'
 
 // SOlution - 1
-// function reverse(str) {
-//   // const arr = str.split('')
-//   // arr.reverse();
-//   // return arr.join('') // join back into string
-//   return str.split('').reverse().join(''); // join back into string
+// function reverse (str) {
+//   return str.split("").reverse().join('')
 // }
 
 // solution - 2:
@@ -30,11 +27,11 @@
 // }
 
 // Solution - 3:
-function reverse(str) {
-  //first we will split into array, then call reduce
-  const reversedString = str.split('');
-  return reversedString.reduce((str, rev) => rev + str, '');
-}
+// function reverse(str) {
+//   first we will split into array, then call reduce
+//   const reversedString = str.split('');
+//   return reversedString.reduce((str, rev) => rev + str, '');
+// }
 
 //reverse('hello');
 
